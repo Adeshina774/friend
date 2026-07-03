@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Muhammed Portfolio</title>
+        <link rel="stylesheet" href="final work.css">
+        <style>
+            body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: #170249;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+ header h1 {
+    margin: 0;
+    font-family: ALGERIAN;
+    font-size: 40px;
+    color: white;
+ }
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+ }
+
+ nav ul li {
+    margin: 0 10px;
+ }
+
+ nav ul li a {
+    color: rgb(241, 236, 236);
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: algerian;
+ }
+
+ footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+section {
+    padding: 5px;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-family: georgia;
+}
+
+section p {
+    font-family: Times New Roman;
+}
+
+.hea {
+    text-align: center;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    color: #170249;
+    font-family: algerian;
+}
+
+.project-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 300px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+img {
+    width: 32%;
+}
+
+    form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+form label {
+    margin: 10px 0 5px 10px;
+} 
+
+form input,
+form textarea {
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+button {
+    background-color: rgb(53, 51, 51);
+    padding: 6px;
+    color: white;
+}
+
+button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+
+.contacthead {
+    font-family: ALGERIAN;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    border-radius: 10px;
+    color: #170249;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 100px;
+}
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>My Portfolio</h1>
+
+            <nav>
+                <ul>
+                    <div class="home"><li><a href="#about">About Me</a></li></div>
+                    <div class="home"><li><a href="#projects">Project</a></li></div>
+                    <div class="home"><li><a href="#contact">Contact</a></li></div>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="hea">Home</h1>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Lukmon-Saka Muhammed a Computer Science with Electronics Student, a web developer with average knowledge and little experience in creating responsive websites </p>
+        </section>
+
+        
+        <section id="projects">
+        <h1 class="hea">PROJECTS</h1>    
+            <div class="projects">
+              <div class="project-card">
+                <h3>Project One</h3>
+                <img src="picture/project1.PNG">
+            <img src="picture/otherproject 1.PNG">
+            <img src="picture/underproject 1.PNG">
+                <h3>Description&#58;</h3>
+                <p>A grid-based layout displaying images beautifully. 
+                    It arranges images in rows and columns, ensuring responsiveness on different screen sizes.
+                     The gallery often includes hover effects like zoom-in, grayscale, or border changes. </p>
+                <h3>CSS Features Used&#58;</h3>
+                <bold><p>Flexbox <br> Hover <br> Media queries for responsiveness </p></bold>
+              </div>
+              <div class="project-card">
+                <h3>Project Two</h3>
+                <img src="picture/login.PNG">
+                <h3>Description&#58;</h3>
+                <bold><p>A simple yet stylish login form with sleek input fields, icons, and a submit button.
+                     Often includes password visibility toggle and "Remember Me" checkbox.</p></bold>
+                <h3>CSS Features Used&#58;</h3>
+                <bold><p>Flexbox for alignment <br> Hover <br> Media queries for responsiveness <br> Input field <br> Box shadows </p></bold>
+              </div>
+              <div class="project-card">
+                <h3>Project Three</h3>
+                <img src="picture/buttoneffects.PNG">
+                <h3>Description&#58;</h3>
+                <bold><p>Buttons with hover animations, such as shadows, transitions, or background color shifts.</p></bold>
+                <h3>CSS Features Used&#58;</h3>
+                <bold><p>CSS transition <br> Hover <br> Box shadows </p></bold>
+              </div>
+              <div class="project-card">
+                <h3>ProjectFour</h3>
+                <img src="new word/project4.jpeg">
+                <h3>Description&#58;</h3>
+                <bold><p>A simple yet stylish login form with sleek input fields, icons, and a submit button.
+                     Often includes password visibility toggle and "Remember Me" checkbox.</p></bold>
+                <h3>CSS Features Used&#58;</h3>
+                <bold><p>Flexbox for alignment <br> Hover <br> Media queries for responsiveness <br> Input field <br> Box shadows </p></bold>
+              </div>
+            </div>
+          </section>
+          
+          <section id="contact">
+            <div>
+                <h1 class="contacthead">Contact Us</h1>
+            </div>
+    
+        <form>
+            <label name="name">Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label name="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label name="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+          </section>
+
+        <footer>
+            <p>© 2025 My Portfolio</p>
+        </footer>
+
+        <script>
+            // Initialize EmailJS with your User ID
+    emailjs.init("7pESJxVtAmkcoj2OH"); // Replace with your actual User ID
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // Send the email using the service ID and template ID
+  emailjs.send("service_xadw55f", "template_xgrqjpk", {
+    name: name,
+    email: email,
+    message: message
+  })
+  .then(function(response) {
+    alert('Thank you, ' + name + '! Your message has been sent.');
+  }, function(error) {
+    alert('Oops! Something went wrong, please try again later.');
+  });
+
+  // Clear the form after submission
+  document.getElementById('contactForm').reset();
+});
+        </script>
+
+        </body>
+        </html> 
